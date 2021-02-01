@@ -102,6 +102,15 @@ a:hover, a:focus {
   margin-bottom: 0;
 }
 
+.vertical-slider {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.vertical-slider__image {
+  width: 100%;
+}
+
 @media (min-width: 576px) {
   .header-logo__title {
     font-size: 3.5rem;
