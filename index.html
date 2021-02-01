@@ -73,7 +73,15 @@
 
       <div style="text-align: justify">MAIN
         <br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus excepturi veritatis voluptate. Exercitationem explicabo incidunt ipsa maxime molestiae obcaecati officia quaerat voluptatem? Accusamus error, suscipit! A adipisci amet architecto consectetur, debitis delectus deserunt, dolor dolorem doloribus est fuga fugit incidunt inventore ipsa itaque laboriosam minima mollitia neque obcaecati odio omnis quisquam ratione sed sint tempore temporibus voluptas voluptates. A dolor eum fugiat laudantium, natus necessitatibus numquam quia repellendus sapiente voluptates! Atque cumque deserunt dolore dolorem in modi natus, nisi omnis perspiciatis porro praesentium rerum tempore totam? Alias, dolores eaque iure officiis porro quia? Ad cupiditate eos fuga quaerat rem voluptatum?</div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus excepturi veritatis voluptate.
+        Exercitationem explicabo incidunt ipsa maxime molestiae obcaecati officia quaerat voluptatem? Accusamus error,
+        suscipit! A adipisci amet architecto consectetur, debitis delectus deserunt, dolor dolorem doloribus est fuga
+        fugit incidunt inventore ipsa itaque laboriosam minima mollitia neque obcaecati odio omnis quisquam ratione sed
+        sint tempore temporibus voluptas voluptates. A dolor eum fugiat laudantium, natus necessitatibus numquam quia
+        repellendus sapiente voluptates! Atque cumque deserunt dolore dolorem in modi natus, nisi omnis perspiciatis
+        porro praesentium rerum tempore totam? Alias, dolores eaque iure officiis porro quia? Ad cupiditate eos fuga
+        quaerat rem voluptatum?
+      </div>
 
     </main>
 
@@ -113,14 +121,57 @@
       <div class="site-search panel panel-info">
         <div class="panel-heading">Поиск</div>
         <div class="panel-body">
-          PanelContent
+          <form action="search">
+            <div class="input-group input-group-lg">
+              <input class="form-control" type="search" placeholder="Поиск по сайту">
+              <span class="input-group-btn">
+                <button class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+              </span>
+            </div>
+          </form>
         </div>
       </div>
 
       <div class="user-login panel panel-info">
         <div class="panel-heading">Пользователь</div>
         <div class="panel-body">
-          PanelContent
+          <ul class="user-login__tabs nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#user-login-sidebar" aria-controls="user-login-sidebar"
+                                                      role="tab" data-toggle="tab"><span
+                class="glyphicon glyphicon-log-in"></span></a></li>
+            <li role="presentation"><a href="#user-registration-sidebar" aria-controls="user-registration-sidebar"
+                                       role="tab" data-toggle="tab"><span class="glyphicon glyphicon-user"></span></a>
+            </li>
+          </ul>
+
+          <div class="user-login__content tab-content">
+            <div role="tabpanel" class="tab-pane fade in active" id="user-login-sidebar">
+              <form action="login">
+                <div class="form-group">
+                  <input class="form-control input-lg" type="text" placeholder="Логин">
+                </div>
+                <div class="form-group">
+                  <input class="form-control input-lg" type="password" placeholder="Пароль">
+                </div>
+                <button class="btn btn-default btn-lg btn-block">Вход</button>
+              </form>
+            </div>
+
+            <div role="tabpanel" class="tab-pane fade" id="user-registration-sidebar">
+              <form action="registration">
+                <div class="form-group">
+                  <input class="form-control input-lg" type="text" placeholder="Логин">
+                </div>
+                <div class="form-group">
+                  <input class="form-control input-lg" type="password" placeholder="Пароль">
+                </div>
+                <div class="form-group">
+                  <input class="form-control input-lg" type="email" placeholder="Email">
+                </div>
+                <button class="btn btn-default btn-lg btn-block">Вход</button>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
 
