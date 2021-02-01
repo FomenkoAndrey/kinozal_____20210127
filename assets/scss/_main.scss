@@ -5,15 +5,15 @@
 
 .new-films {
   &-row {
-    margin-left: -$gap / 2;
     margin-right: -$gap / 2;
     margin-bottom: -$gap;
+    margin-left: -$gap / 2;
   }
 
   &-item {
-    padding-left: $gap / 2;
-    padding-right: $gap / 2;
     margin-bottom: $gap;
+    padding-right: $gap / 2;
+    padding-left: $gap / 2;
 
     &__thumbnail {
       margin-bottom: 0;

@@ -7,8 +7,8 @@
 }
 
 .navbar-inverse {
-  background-color: #191919;
   border-color: transparent;
+  background-color: #191919;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -39,16 +39,16 @@
 }
 
 .panel {
+  margin-bottom: 30px;
   border: none;
   background-color: #ededed;
-  margin-bottom: 30px;
 }
 
 .panel-info > .panel-heading {
   letter-spacing: 0.1em;
   color: #ffffff;
-  background-color: #df8a13;
   border: none;
+  background-color: #df8a13;
   font-size: 1.2rem;
 }
 
@@ -69,13 +69,13 @@
 }
 
 html {
-  font-size: 16px;
   overflow-y: scroll;
+  font-size: 16px;
 }
 
 body {
-  font-size: 16px;
   font-family: "PT Sans", sans-serif;
+  font-size: 16px;
 }
 
 a {
@@ -104,21 +104,21 @@ a:hover, a:focus {
 
 .header-logo__description {
   display: block;
-  color: #ffffff;
   letter-spacing: 0.2em;
+  color: #ffffff;
   font-size: 1.15rem;
 }
 
 .new-films-row {
-  margin-left: -7.5px;
   margin-right: -7.5px;
   margin-bottom: -15px;
+  margin-left: -7.5px;
 }
 
 .new-films-item {
-  padding-left: 7.5px;
-  padding-right: 7.5px;
   margin-bottom: 15px;
+  padding-right: 7.5px;
+  padding-left: 7.5px;
 }
 
 .new-films-item__thumbnail {
@@ -130,8 +130,8 @@ a:hover, a:focus {
 }
 
 .vertical-slider {
-  border-radius: 4px;
   overflow: hidden;
+  border-radius: 4px;
 }
 
 .vertical-slider__image {
@@ -150,10 +150,10 @@ a:hover, a:focus {
 }
 
 .user-login__tabs a {
-  background-color: transparent !important;
-  border: none !important;
-  color: #dddddd;
   padding: 14px 5px 11px !important;
+  color: #dddddd;
+  border: none !important;
+  background-color: transparent !important;
 }
 
 .user-login__tabs .active a {
@@ -161,8 +161,8 @@ a:hover, a:focus {
 }
 
 .site-news-item {
-  clear: both;
   position: relative;
+  clear: both;
 }
 
 .site-news-item:not(:last-child) {
@@ -171,12 +171,12 @@ a:hover, a:focus {
 }
 
 .site-news-item:not(:last-child)::after {
-  content: "";
   position: absolute;
   right: 0;
   bottom: 0;
   width: calc(100% - 85px);
   height: 1px;
+  content: "";
   background-color: #dddddd;
 }
 
@@ -205,10 +205,10 @@ a:hover, a:focus {
   transition: color 0.25s;
   display: -webkit-box;
   overflow: hidden;
+  -webkit-box-orient: vertical;
   height: 50px;
   font-size: 1rem;
   line-height: 1.5rem;
-  -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
 }
 
@@ -219,8 +219,8 @@ a:hover, a:focus {
 }
 
 .top-films__body {
-  padding-left: 0;
   padding-right: 0;
+  padding-left: 0;
 }
 
 .top-films__list {
@@ -228,11 +228,11 @@ a:hover, a:focus {
 }
 
 .top-films__item {
-  background-color: transparent;
-  margin-left: -1px;
-  color: #165690 !important;
   margin-right: -1px;
+  margin-left: -1px;
   padding-right: 55px;
+  color: #165690 !important;
+  background-color: transparent;
 }
 
 .top-films__item:first-child {
@@ -246,9 +246,9 @@ a:hover, a:focus {
 }
 
 .top-films__item:hover, .top-films__item:focus {
-  background-color: #df8a13 !important;
   color: #ffffff !important;
   border-color: #df8a13;
+  background-color: #df8a13 !important;
 }
 
 .top-films__item:hover .badge, .top-films__item:focus .badge {
@@ -257,8 +257,8 @@ a:hover, a:focus {
 
 .top-films__badge {
   position: absolute;
-  right: 15px;
   top: 50%;
+  right: 15px;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -266,9 +266,9 @@ a:hover, a:focus {
 
 @media (min-width: 576px) {
   .header-logo__title {
-    font-size: 3.5rem;
-    letter-spacing: 0.33em;
     margin-right: -15px;
+    letter-spacing: 0.33em;
+    font-size: 3.5rem;
   }
 }
 
@@ -298,8 +298,8 @@ a:hover, a:focus {
 
 @media (max-width: 575.8px) {
   .header-logo__title {
-    font-size: 2.5rem;
-    letter-spacing: 0.2em;
     margin-right: -5px;
+    letter-spacing: 0.2em;
+    font-size: 2.5rem;
   }
 }
